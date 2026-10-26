@@ -1,50 +1,460 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#101010">
-<meta name="description" content="1 OF 1 ORIGINALS — original streetwear, tees, hoodies, hats and bags.">
-<title>1 OF 1 ORIGINALS | Wear Your Originality</title>
+<meta name="description" content="1 OF 1 ORIGINALS streetwear and the Random Fit Collection in Williamsburg, Brooklyn.">
+<title>1 OF 1 ORIGINALS | Random Fit Collection</title>
 <style>
-:root{--bg:#0b0b0b;--panel:#181818;--gold:#d6b46b;--text:#f8f6f0;--muted:#aaa;--line:#333}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif}a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible,select:focus-visible{outline:3px solid var(--gold);outline-offset:3px}.announcement{background:var(--gold);color:#161616;text-align:center;padding:9px;font-size:12px;letter-spacing:2px;font-weight:700}.nav{position:sticky;top:0;z-index:5;background:#0b0b0bf2;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:15px;padding:19px max(5%,calc((100% - 1200px)/2))}.brand{font-size:23px;font-weight:900;letter-spacing:2px}.brand span{color:var(--gold)}.navlinks{display:flex;gap:20px;align-items:center;font-size:13px;letter-spacing:1px}.navlinks a:hover{color:var(--gold)}.cart-button,.button{border:1px solid var(--gold);background:var(--gold);color:#141414;padding:13px 18px;font-weight:800;text-transform:uppercase;letter-spacing:1px}.cart-button{white-space:nowrap}.button.secondary{background:transparent;color:var(--gold)}.hero{min-height:540px;display:flex;align-items:center;padding:80px 7%;background:linear-gradient(100deg,#090909 10%,#090909d9 50%,#09090970),radial-gradient(circle at 80% 40%,#6b5429 0%,#171717 45%,#090909 80%)}.hero-inner{max-width:750px}.eyebrow{color:var(--gold);font-weight:700;letter-spacing:5px;font-size:13px}.hero h1{font-size:clamp(52px,9vw,110px);letter-spacing:-4px;line-height:.93;margin:25px 0}.hero h1 span{color:var(--gold)}.hero p{font-size:18px;color:#d2d2d2;line-height:1.7;max-width:560px}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.container{max-width:1200px;margin:auto;padding:70px 24px}.section-top{text-align:center;margin-bottom:35px}.section-top h2{font-size:clamp(30px,5vw,46px);margin:12px 0}.section-top p{color:var(--muted)}.filters{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-bottom:32px}.filter{border:1px solid #555;background:transparent;color:#eee;padding:11px 18px}.filter.active,.filter:hover{background:var(--gold);color:#111;border-color:var(--gold)}.products{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}.product{background:var(--panel);border:1px solid #292929;overflow:hidden}.product-art{height:250px;background:radial-gradient(circle at 50% 35%,#474038,#222 65%,#151515);display:flex;align-items:center;justify-content:center;position:relative}.product-art svg{width:76%;height:76%;filter:drop-shadow(0 10px 12px #0007)}.placeholder{position:absolute;bottom:10px;left:10px;font-size:10px;letter-spacing:1px;color:#bdbdbd;background:#111b;padding:5px 7px}.product-info{padding:18px}.product-info small{color:var(--gold);text-transform:uppercase;letter-spacing:2px}.product-info h3{font-size:17px;margin:10px 0}.price{font-weight:800;font-size:19px;margin:10px 0 15px}.product select{width:100%;background:#0d0d0d;color:#fff;border:1px solid #555;padding:12px;margin-bottom:10px}.add{width:100%;background:var(--gold);color:#111;border:0;padding:13px;font-weight:800}.story{background:#171717;border-block:1px solid #333;text-align:center;padding:75px 24px}.story h2{font-size:40px;margin:10px}.story p{max-width:650px;margin:20px auto;color:#c5c5c5;line-height:1.8}.footer{padding:45px 24px;text-align:center;color:#aaa;font-size:13px}.footer strong{display:block;color:var(--gold);font-size:23px;margin-bottom:12px}.drawer-backdrop{position:fixed;inset:0;background:#000b;z-index:9;display:none}.drawer-backdrop.open{display:block}.drawer{position:fixed;right:0;top:0;bottom:0;width:min(440px,100%);background:#181818;z-index:10;transform:translateX(105%);transition:transform .2s;display:flex;flex-direction:column;padding:25px;box-shadow:-10px 0 40px #0009}.drawer.open{transform:translateX(0)}.drawer-header{display:flex;justify-content:space-between;align-items:center}.close{background:transparent;border:0;color:white;font-size:30px}.cart-items{flex:1;overflow:auto;margin:20px 0}.cart-item{border-bottom:1px solid #444;padding:15px 0;display:flex;justify-content:space-between;gap:10px}.cart-item button{background:transparent;border:0;color:var(--gold);text-decoration:underline}.cart-footer{border-top:1px solid #444;padding-top:20px}.cart-footer .button{width:100%;margin-top:16px}.notice{font-size:12px;color:#bbb;line-height:1.6}.total{display:flex;justify-content:space-between;font-size:20px;font-weight:800}.empty{color:#bbb;text-align:center;margin:45px 0}.status{color:var(--gold);font-size:13px;min-height:18px}@media(max-width:900px){.products{grid-template-columns:repeat(2,minmax(0,1fr))}.navlinks{gap:10px}}@media(max-width:600px){.nav{padding:15px}.brand{font-size:17px}.navlinks{display:none}.hero{min-height:470px;padding:55px 22px}.hero h1{letter-spacing:-2px}.products{gap:12px}.product-art{height:180px}.product-info{padding:12px}.product-info h3{font-size:14px}.container{padding:50px 14px}}
+:root{--bg:#0b0b0b;--panel:#181818;--gold:#d6b46b;--text:#f8f6f0;--muted:#aaa;--line:#333}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif}
+a{color:inherit;text-decoration:none}
+button,input,select,textarea{font:inherit}
+button{cursor:pointer}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.announcement{background:var(--gold);color:#111;text-align:center;padding:10px;font-size:12px;letter-spacing:2px;font-weight:800}
+.nav{position:sticky;top:0;z-index:5;background:#0b0b0bf5;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:15px;padding:18px 5%}
+.brand{font-size:22px;font-weight:900;letter-spacing:2px}
+.brand span,.eyebrow{color:var(--gold)}
+.navlinks{display:flex;flex-wrap:wrap;gap:17px;align-items:center;font-size:12px;letter-spacing:1px}
+.navlinks a:hover{color:var(--gold)}
+.button,.cart-button{display:inline-block;border:1px solid var(--gold);background:var(--gold);color:#111;padding:13px 18px;font-weight:800;text-transform:uppercase;letter-spacing:1px;text-align:center}
+.button.secondary{background:transparent;color:var(--gold)}
+.cart-button{white-space:nowrap}
+.hero{min-height:520px;display:flex;align-items:center;padding:75px 7%;background:linear-gradient(100deg,#090909 10%,#090909dc 50%,#09090970),radial-gradient(circle at 80% 40%,#6b5429,#171717 48%,#090909 80%)}
+.hero-inner{max-width:760px}
+.eyebrow{font-weight:800;letter-spacing:4px;font-size:12px}
+.hero h1{font-size:clamp(50px,9vw,108px);letter-spacing:-3px;line-height:.95;margin:25px 0}
+.hero h1 span{color:var(--gold)}
+.hero p{font-size:18px;color:#ddd;line-height:1.7;max-width:570px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.container{max-width:1200px;margin:auto;padding:65px 24px}
+.section-top{text-align:center;margin-bottom:34px}
+.section-top h2{font-size:clamp(30px,5vw,46px);margin:12px 0}
+.section-top p{color:var(--muted);line-height:1.7}
+.filters{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-bottom:30px}
+.filter{border:1px solid #555;background:transparent;color:#eee;padding:11px 17px}
+.filter.active,.filter:hover{background:var(--gold);color:#111;border-color:var(--gold)}
+.products{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.product,.fit-card{background:var(--panel);border:1px solid #333;overflow:hidden}
+.product-art{height:245px;background:radial-gradient(circle at 50% 35%,#474038,#222 65%,#151515);display:flex;align-items:center;justify-content:center;position:relative}
+.product-art svg{width:76%;height:76%}
+.placeholder{position:absolute;bottom:10px;left:10px;font-size:10px;letter-spacing:1px;color:#ddd;background:#111c;padding:5px 7px}
+.product-info,.fit-info{padding:18px}
+.product-info small{color:var(--gold);text-transform:uppercase;letter-spacing:2px}
+.product-info h3,.fit-info h3{font-size:18px;margin:10px 0}
+.price,.fit-price{font-weight:900;font-size:21px;color:var(--gold);margin:12px 0}
+.product select{width:100%;background:#0d0d0d;color:#fff;border:1px solid #555;padding:12px;margin-bottom:10px}
+.add{width:100%;background:var(--gold);color:#111;border:0;padding:13px;font-weight:800}
+.random-fits{background:#111;border-block:1px solid #333}
+.random-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.fit-photo{height:300px;background:linear-gradient(135deg,#40362b,#171717);display:flex;align-items:center;justify-content:center;color:var(--gold);text-align:center;position:relative;padding:10px}
+.fit-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.fit-tag{position:absolute;top:12px;left:12px;background:var(--gold);color:#111;padding:7px 10px;font-size:11px;font-weight:900}
+.fit-info p{color:#bbb;line-height:1.6}
+.fit-meta,.fit-seller{font-size:13px;color:#aaa}
+.fit-seller{border-top:1px solid #444;padding-top:12px;margin-top:15px}
+.fit-info .button{width:100%;margin-top:15px}
+.seller-section{background:#191919;border:1px solid #444;padding:30px;margin-top:55px}
+.seller-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.field label{display:block;color:var(--gold);font-size:13px;font-weight:800;margin-bottom:8px}
+.field input,.field select,.field textarea{width:100%;background:#0c0c0c;border:1px solid #555;padding:13px;color:white}
+.field textarea{min-height:110px;resize:vertical}
+.wide{grid-column:1/-1}
+.fit-note,.notice{font-size:12px;color:#bbb;line-height:1.7}
+#fit-preview img{max-width:240px;max-height:260px;object-fit:cover;border:1px solid var(--gold);margin-top:12px}
+.status{color:var(--gold);font-size:13px;min-height:20px}
+.story{background:#171717;border-block:1px solid #333;text-align:center;padding:75px 24px}
+.story h2{font-size:40px;margin:12px}
+.story p{max-width:650px;margin:20px auto;color:#c5c5c5;line-height:1.8}
+.footer{padding:45px 24px;text-align:center;color:#aaa;font-size:13px}
+.footer strong{display:block;color:var(--gold);font-size:23px;margin-bottom:12px}
+.drawer-backdrop{position:fixed;inset:0;background:#000b;z-index:9;display:none}
+.drawer-backdrop.open{display:block}
+.drawer{position:fixed;right:0;top:0;bottom:0;width:min(440px,100%);background:#181818;z-index:10;transform:translateX(105%);transition:transform .2s;display:flex;flex-direction:column;padding:25px;box-shadow:-10px 0 40px #0009}
+.drawer.open{transform:translateX(0)}
+.drawer-header{display:flex;justify-content:space-between;align-items:center}
+.close{background:transparent;border:0;color:white;font-size:30px}
+.cart-items{flex:1;overflow:auto;margin:20px 0}
+.cart-item{border-bottom:1px solid #444;padding:15px 0;display:flex;justify-content:space-between;gap:10px}
+.cart-item button{background:transparent;border:0;color:var(--gold);text-decoration:underline}
+.cart-footer{border-top:1px solid #444;padding-top:20px}
+.cart-footer .button{width:100%;margin-top:16px}
+.total{display:flex;justify-content:space-between;font-size:20px;font-weight:800}
+.empty{color:#bbb;text-align:center;margin:45px 0}
+@media(max-width:950px){.products{grid-template-columns:repeat(2,minmax(0,1fr))}.random-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.navlinks{gap:10px}}
+@media(max-width:650px){.nav{padding:14px;flex-wrap:wrap}.brand{font-size:17px}.navlinks{order:3;width:100%;justify-content:center;font-size:11px}.hero{min-height:430px;padding:50px 22px}.hero h1{letter-spacing:-2px}.container{padding:50px 14px}.products{gap:12px}.product-art{height:180px}.product-info{padding:12px}.product-info h3{font-size:14px}.random-grid,.seller-form{grid-template-columns:1fr}.seller-section{padding:18px}.wide{grid-column:auto}}
 </style>
 </head>
 <body>
 <div class="announcement">BE ORIGINAL. BE 1 OF 1.</div>
-<header class="nav"><a class="brand" href="#home">1 OF 1 <span>ORIGINALS</span></a><nav class="navlinks" aria-label="Main navigation"><a href="#shop">SHOP</a><a href="#story">OUR STORY</a><a href="mailto:hello@example.com" id="contact-link">CONTACT</a></nav><button class="cart-button" id="open-cart" type="button">BAG (<span id="cart-count">0</span>)</button></header>
-<main><section class="hero" id="home"><div class="hero-inner"><div class="eyebrow">THE ORIGINALS COLLECTION</div><h1>NOT MADE<br>TO <span>BLEND IN.</span></h1><p>Streetwear for people who create their own lane. Discover original tees, hoodies, hats and bags.</p><div class="hero-actions"><a class="button" href="#shop">SHOP THE COLLECTION</a><a class="button secondary" href="#story">OUR STORY</a></div></div></section>
-<section class="container" id="shop"><div class="section-top"><div class="eyebrow">FIND YOUR FIT</div><h2>SHOP ORIGINALS</h2><p>Sample products and prices — replace with your actual collection before launch.</p></div><div class="filters" id="filters" aria-label="Product categories"><button class="filter active" data-filter="All" type="button">ALL</button><button class="filter" data-filter="T-Shirts" type="button">T-SHIRTS</button><button class="filter" data-filter="Hoodies" type="button">HOODIES</button><button class="filter" data-filter="Hats" type="button">HATS</button><button class="filter" data-filter="Bags" type="button">BAGS</button></div><div class="products" id="products"></div></section>
-<section class="story" id="story"><div class="eyebrow">MORE THAN CLOTHING</div><h2>ONE OF ONE. ALWAYS.</h2><p>1 OF 1 ORIGINALS is built around individuality. Your style is your signature — wear it your way. This is starter brand copy; replace it with the owner's real story.</p><a class="button secondary" href="#shop">EXPLORE THE COLLECTION</a></section></main>
-<footer class="footer"><strong>1 OF 1 ORIGINALS</strong><p>Tees · Hoodies · Hats · Bags</p><p>© <span id="year"></span> 1 OF 1 ORIGINALS. All rights reserved.</p><p>Shipping, returns and contact details will be added before accepting orders.</p></footer>
-<div class="drawer-backdrop" id="backdrop"></div><aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Shopping bag" aria-hidden="true"><div class="drawer-header"><h2>YOUR BAG</h2><button class="close" id="close-cart" aria-label="Close shopping bag">×</button></div><div class="cart-items" id="cart-items"></div><div class="cart-footer"><div class="total"><span>Subtotal</span><span id="subtotal">$0.00</span></div><p class="notice">Shipping and taxes are calculated by your payment provider. Checkout is not active until verified payment links are configured.</p><button class="button" id="checkout" type="button">SECURE CHECKOUT</button><p class="status" id="status" role="status"></p></div></aside>
+
+<header class="nav">
+  <a class="brand" href="#home">1 OF 1 <span>ORIGINALS</span></a>
+  <nav class="navlinks" aria-label="Main navigation">
+    <a href="#shop">SHOP</a>
+    <a href="#random-fits">RANDOM FITS</a>
+    <a href="#sell-your-fit">SELL YOUR FIT</a>
+    <a href="#story">OUR STORY</a>
+    <a href="#contact">CONTACT</a>
+  </nav>
+  <button class="cart-button" id="open-cart" type="button">BAG (<span id="cart-count">0</span>)</button>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <div class="eyebrow">THE ORIGINALS COLLECTION</div>
+    <h1>NOT MADE<br>TO <span>BLEND IN.</span></h1>
+    <p>Streetwear for people who create their own lane. Discover original tees, hoodies, hats and bags. Plus unique fits from Williamsburg, Brooklyn.</p>
+    <div class="hero-actions">
+      <a class="button" href="#shop">SHOP ORIGINALS</a>
+      <a class="button secondary" href="#random-fits">EXPLORE RANDOM FITS</a>
+    </div>
+  </div>
+</section>
+
+<section class="container" id="shop">
+  <div class="section-top">
+    <div class="eyebrow">FIND YOUR FIT</div>
+    <h2>SHOP ORIGINALS</h2>
+    <p>Sample products and prices. Actual merchandise coming soon.</p>
+  </div>
+  <div class="filters" id="filters">
+    <button class="filter active" data-filter="All">ALL</button>
+    <button class="filter" data-filter="T-Shirts">T-SHIRTS</button>
+    <button class="filter" data-filter="Hoodies">HOODIES</button>
+    <button class="filter" data-filter="Hats">HATS</button>
+    <button class="filter" data-filter="Bags">BAGS</button>
+  </div>
+  <div class="products" id="products"></div>
+</section>
+
+<section class="random-fits" id="random-fits">
+  <div class="container">
+    <div class="section-top">
+      <div class="eyebrow">WILLIAMSBURG · BROOKLYN</div>
+      <h2>RANDOM FIT COLLECTION</h2>
+      <p>Real people. Real style. One-of-one finds. Discover complete outfits and individual clothing pieces from local sellers.</p>
+      <a class="button secondary" href="#sell-your-fit">LIST YOUR FIT</a>
+    </div>
+    <div class="filters" id="random-filters">
+      <button class="filter active" data-fit-filter="All">ALL FITS</button>
+      <button class="filter" data-fit-filter="Complete Outfit">COMPLETE OUTFITS</button>
+      <button class="filter" data-fit-filter="Individual Piece">INDIVIDUAL PIECES</button>
+    </div>
+    <div class="random-grid" id="random-listings"></div>
+
+    <div class="seller-section" id="sell-your-fit">
+      <div class="section-top">
+        <div class="eyebrow">JOIN THE COLLECTION</div>
+        <h2>SELL YOUR FIT</h2>
+        <p>Model your outfit or photograph an individual piece. Set your price and preview your listing.</p>
+      </div>
+      <form class="seller-form" id="random-seller-form">
+        <div class="field">
+          <label for="seller-name">Seller Display Name</label>
+          <input id="seller-name" maxlength="60" required placeholder="Your seller name">
+        </div>
+        <div class="field">
+          <label for="seller-email">Email Address (private)</label>
+          <input id="seller-email" type="email" required placeholder="you@example.com">
+        </div>
+        <div class="field">
+          <label for="fit-name">Listing Title</label>
+          <input id="fit-name" maxlength="80" required placeholder="Vintage Brooklyn Street Fit">
+        </div>
+        <div class="field">
+          <label for="fit-category">Listing Type</label>
+          <select id="fit-category">
+            <option>Complete Outfit</option>
+            <option>Individual Piece</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="fit-price">Asking Price ($)</label>
+          <input id="fit-price" type="number" min="1" max="100000" step=".01" required placeholder="75.00">
+        </div>
+        <div class="field">
+          <label for="fit-size">Size / Sizes</label>
+          <input id="fit-size" maxlength="80" required placeholder="M / 32 waist / Size 10">
+        </div>
+        <div class="field">
+          <label for="fit-condition">Condition</label>
+          <select id="fit-condition">
+            <option>New with tags</option>
+            <option>Like New</option>
+            <option>Good</option>
+            <option>Vintage / Worn</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="fit-area">Brooklyn Neighborhood</label>
+          <input id="fit-area" maxlength="70" value="Williamsburg" required>
+        </div>
+        <div class="field wide">
+          <label for="fit-description">Description</label>
+          <textarea id="fit-description" maxlength="1000" required placeholder="Describe the clothing, brand, condition and everything included in the price."></textarea>
+        </div>
+        <div class="field wide">
+          <label for="fit-image">Upload Your Fit Photo (5 MB maximum)</label>
+          <input id="fit-image" type="file" accept="image/*" required>
+          <div id="fit-preview"></div>
+        </div>
+        <div class="field wide">
+          <label>
+            <input type="checkbox" id="fit-consent" style="width:auto" required>
+            I own or have permission to use the photo, and consent to a listing review.
+          </label>
+        </div>
+        <div class="wide">
+          <button class="button" type="submit">PREVIEW MY LISTING</button>
+          <p class="fit-note">Demo mode: your listing preview appears only in this browser session. It is not sent, saved or published. Do not include private contact information or home addresses in descriptions.</p>
+          <p class="status" id="fit-form-status" role="status"></p>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="story" id="story">
+  <div class="eyebrow">MORE THAN CLOTHING</div>
+  <h2>ONE OF ONE. ALWAYS.</h2>
+  <p>1 OF 1 ORIGINALS celebrates individuality. From original streetwear to the Random Fit Collection, your style is your signature. Wear it your way.</p>
+  <a class="button secondary" href="#random-fits">EXPLORE THE COLLECTION</a>
+</section>
+</main>
+
+<footer class="footer" id="contact">
+  <strong>1 OF 1 ORIGINALS</strong>
+  <p>Tees · Hoodies · Hats · Bags · Random Fits</p>
+  <p>Williamsburg, Brooklyn, New York</p>
+  <p>Store contact details coming soon.</p>
+  <p>© <span id="year"></span> 1 OF 1 ORIGINALS. All rights reserved.</p>
+  <p>Shipping, returns, payments and seller policies must be configured before accepting orders.</p>
+</footer>
+
+<div class="drawer-backdrop" id="backdrop"></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Shopping bag" aria-hidden="true">
+  <div class="drawer-header">
+    <h2>YOUR BAG</h2>
+    <button class="close" id="close-cart" aria-label="Close shopping bag">×</button>
+  </div>
+  <div class="cart-items" id="cart-items"></div>
+  <div class="cart-footer">
+    <div class="total"><span>Subtotal</span><span id="subtotal">$0.00</span></div>
+    <p class="notice">Shipping and taxes are handled by the payment provider. Checkout requires verified payment links.</p>
+    <button class="button" id="checkout" type="button">SECURE CHECKOUT</button>
+    <p class="status" id="status" role="status"></p>
+  </div>
+</aside>
+
 <script>
-'use strict';
-// REPLACE these sample products, prices and payment links before accepting orders.
-// Each Stripe Payment Link must be created for the EXACT item and size/price shown.
-// One-item checkout is supported after a verified link is configured. Multi-item
-// checkout needs a server-side checkout integration; never collect card details here.
+"use strict";
+const $ = id => document.getElementById(id);
+const money = n => new Intl.NumberFormat("en-US",{style:"currency",currency:"USD"}).format(n);
+
+// SAMPLE ORIGINALS MERCHANDISE
+// Replace sample prices and items with real inventory.
+// Only configure Stripe links for matching item/size/price.
 const products=[
-{id:'tee-black',name:'Original Signature Tee',category:'T-Shirts',price:30,sizes:['S','M','L','XL','2XL'],color:'#171717',links:{}},
-{id:'tee-cream',name:'Everyday Original Tee',category:'T-Shirts',price:32,sizes:['S','M','L','XL','2XL'],color:'#c5b9a0',links:{}},
-{id:'hoodie-black',name:'One of One Hoodie',category:'Hoodies',price:65,sizes:['S','M','L','XL','2XL'],color:'#181818',links:{}},
-{id:'hoodie-gray',name:'Essential Hoodie',category:'Hoodies',price:68,sizes:['S','M','L','XL','2XL'],color:'#777777',links:{}},
-{id:'hat-black',name:'Originals Cap',category:'Hats',price:28,sizes:['One Size'],color:'#1a1a1a',links:{}},
-{id:'hat-tan',name:'Signature Cap',category:'Hats',price:28,sizes:['One Size'],color:'#a08b6b',links:{}},
-{id:'bag-tote',name:'Originals Tote',category:'Bags',price:25,sizes:['One Size'],color:'#b5a58a',links:{}},
-{id:'bag-cross',name:'Everyday Crossbody Bag',category:'Bags',price:40,sizes:['One Size'],color:'#1b1b1b',links:{}}
+{id:"tee-black",name:"Original Signature Tee",category:"T-Shirts",price:30,sizes:["S","M","L","XL","2XL"],color:"#171717",links:{}},
+{id:"tee-cream",name:"Everyday Original Tee",category:"T-Shirts",price:32,sizes:["S","M","L","XL","2XL"],color:"#c5b9a0",links:{}},
+{id:"hoodie-black",name:"One of One Hoodie",category:"Hoodies",price:65,sizes:["S","M","L","XL","2XL"],color:"#181818",links:{}},
+{id:"hoodie-gray",name:"Essential Hoodie",category:"Hoodies",price:68,sizes:["S","M","L","XL","2XL"],color:"#777",links:{}},
+{id:"hat-black",name:"Originals Cap",category:"Hats",price:28,sizes:["One Size"],color:"#1a1a1a",links:{}},
+{id:"hat-tan",name:"Signature Cap",category:"Hats",price:28,sizes:["One Size"],color:"#a08b6b",links:{}},
+{id:"bag-tote",name:"Originals Tote",category:"Bags",price:25,sizes:["One Size"],color:"#b5a58a",links:{}},
+{id:"bag-cross",name:"Everyday Crossbody Bag",category:"Bags",price:40,sizes:["One Size"],color:"#1b1b1b",links:{}}
 ];
-const cart=[];const money=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(n);const $=id=>document.getElementById(id);
-function art(p){let shape='';if(p.category==='T-Shirts')shape='<path d="M60 48 L84 25 L115 35 Q130 50 145 35 L176 25 L200 48 L224 85 L189 105 L178 89 L178 218 L82 218 L82 89 L71 105 L36 85 Z"/>';if(p.category==='Hoodies')shape='<path d="M97 34 Q130 0 163 34 L177 62 L198 71 L224 125 L190 145 L178 125 L178 221 L82 221 L82 125 L70 145 L36 125 L62 71 L83 62 Z"/><path d="M97 34 Q130 95 163 34" fill="none" stroke="#aaa" stroke-width="3"/><path d="M105 175 L155 175 L162 199 L98 199 Z" fill="none" stroke="#aaa" stroke-width="2"/>';if(p.category==='Hats')shape='<path d="M60 135 Q65 50 130 50 Q195 50 200 135 Z"/><path d="M60 135 Q130 112 200 135 Q216 143 226 162 Q130 182 34 162 Q44 143 60 135 Z"/>';if(p.category==='Bags')shape='<rect x="63" y="80" width="134" height="145" rx="9"/><path d="M94 86 V61 Q94 25 130 25 Q166 25 166 61 V86" fill="none" stroke="#ddd" stroke-width="12"/>';return `<svg viewBox="0 0 260 260" role="img" aria-label="Illustration placeholder for ${p.name}"><g fill="${p.color}" stroke="#9d8a65" stroke-width="2">${shape}</g><text x="130" y="145" text-anchor="middle" fill="#d6b46b" font-size="17" font-weight="bold">1 OF 1</text></svg>`}
-function renderProducts(category='All'){$('products').innerHTML=products.filter(p=>category==='All'||p.category===category).map(p=>`<article class="product"><div class="product-art">${art(p)}<span class="placeholder">PRODUCT IMAGE COMING SOON</span></div><div class="product-info"><small>${p.category}</small><h3>${p.name}</h3><div class="price">${money(p.price)}</div><label for="size-${p.id}" style="display:block;font-size:12px;margin-bottom:7px">SELECT SIZE</label><select id="size-${p.id}">${p.sizes.map(s=>`<option value="${s}">${s}</option>`).join('')}</select><button type="button" class="add" data-add="${p.id}">ADD TO BAG</button></div></article>`).join('')}
-function renderCart(){$('cart-count').textContent=cart.reduce((n,x)=>n+x.qty,0);$('subtotal').textContent=money(cart.reduce((n,x)=>n+x.qty*x.price,0));$('cart-items').innerHTML=cart.length?cart.map((x,i)=>`<div class="cart-item"><div><strong>${x.name}</strong><p>${x.size} · ${money(x.price)} × ${x.qty}</p><button type="button" data-remove="${i}">Remove one</button></div><strong>${money(x.qty*x.price)}</strong></div>`).join(''):'<p class="empty">Your bag is empty.</p>'}
-function toggleCart(open){$('drawer').classList.toggle('open',open);$('backdrop').classList.toggle('open',open);$('drawer').setAttribute('aria-hidden',String(!open));if(open)$('close-cart').focus();else $('open-cart').focus()}
-$('products').addEventListener('click',e=>{const b=e.target.closest('[data-add]');if(!b)return;const p=products.find(x=>x.id===b.dataset.add);const size=$('size-'+p.id).value;const item=cart.find(x=>x.id===p.id&&x.size===size);if(item)item.qty++;else cart.push({...p,size,qty:1});renderCart();$('status').textContent='';toggleCart(true)});
-$('filters').addEventListener('click',e=>{const b=e.target.closest('[data-filter]');if(!b)return;document.querySelectorAll('.filter').forEach(x=>x.classList.toggle('active',x===b));renderProducts(b.dataset.filter)});
-$('cart-items').addEventListener('click',e=>{const b=e.target.closest('[data-remove]');if(!b)return;const i=Number(b.dataset.remove);cart[i].qty--;if(cart[i].qty===0)cart.splice(i,1);renderCart();$('status').textContent=''});
-$('open-cart').onclick=()=>toggleCart(true);$('close-cart').onclick=()=>toggleCart(false);$('backdrop').onclick=()=>toggleCart(false);document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('drawer').classList.contains('open'))toggleCart(false)});
-$('checkout').onclick=()=>{if(!cart.length){$('status').textContent='Add an item to your bag first.';return}if(cart.length!==1||cart[0].qty!==1){$('status').textContent='Multi-item checkout is not configured yet. Please contact the store to order.';return}const item=cart[0],link=item.links[item.size];if(typeof link!=='string'||!/^https:\/\/(buy\.stripe\.com|checkout\.stripe\.com)\//.test(link)){$('status').textContent='Secure checkout is not connected yet. Please check back soon.';return}window.location.assign(link)};
-// Set the owner's real email before launch; remove placeholder contact link until then.
-$('contact-link').addEventListener('click',e=>{if($('contact-link').href.includes('example.com')){e.preventDefault();alert('Store contact details are coming soon.')}});
-$('year').textContent=new Date().getFullYear();renderProducts();renderCart();
+
+const cart=[];
+
+function art(p){
+let shape="";
+if(p.category==="T-Shirts")shape='<path d="M60 48 L84 25 L115 35 Q130 50 145 35 L176 25 L200 48 L224 85 L189 105 L178 89 L178 218 L82 218 L82 89 L71 105 L36 85 Z"/>';
+if(p.category==="Hoodies")shape='<path d="M97 34 Q130 0 163 34 L177 62 L198 71 L224 125 L190 145 L178 125 L178 221 L82 221 L82 125 L70 145 L36 125 L62 71 L83 62 Z"/><path d="M97 34 Q130 95 163 34" fill="none" stroke="#aaa" stroke-width="3"/>';
+if(p.category==="Hats")shape='<path d="M60 135 Q65 50 130 50 Q195 50 200 135 Z"/><path d="M60 135 Q130 112 200 135 Q216 143 226 162 Q130 182 34 162 Q44 143 60 135 Z"/>';
+if(p.category==="Bags")shape='<rect x="63" y="80" width="134" height="145" rx="9"/><path d="M94 86 V61 Q94 25 130 25 Q166 25 166 61 V86" fill="none" stroke="#ddd" stroke-width="12"/>';
+return `<svg viewBox="0 0 260 260" role="img" aria-label="Illustration placeholder for ${p.name}"><g fill="${p.color}" stroke="#9d8a65" stroke-width="2">${shape}</g><text x="130" y="145" text-anchor="middle" fill="#d6b46b" font-size="17" font-weight="bold">1 OF 1</text></svg>`;
+}
+
+function renderProducts(category="All"){
+$("products").innerHTML=products.filter(p=>category==="All"||p.category===category).map(p=>`<article class="product"><div class="product-art">${art(p)}<span class="placeholder">PRODUCT IMAGE COMING SOON</span></div><div class="product-info"><small>${p.category}</small><h3>${p.name}</h3><div class="price">${money(p.price)}</div><label for="size-${p.id}" style="display:block;font-size:12px;margin-bottom:7px">SELECT SIZE</label><select id="size-${p.id}">${p.sizes.map(s=>`<option value="${s}">${s}</option>`).join("")}</select><button type="button" class="add" data-add="${p.id}">ADD TO BAG</button></div></article>`).join("");
+}
+
+function renderCart(){
+$("cart-count").textContent=cart.reduce((n,x)=>n+x.qty,0);
+$("subtotal").textContent=money(cart.reduce((n,x)=>n+x.qty*x.price,0));
+$("cart-items").innerHTML=cart.length?cart.map((x,i)=>`<div class="cart-item"><div><strong>${x.name}</strong><p>${x.size} · ${money(x.price)} × ${x.qty}</p><button type="button" data-remove="${i}">Remove one</button></div><strong>${money(x.qty*x.price)}</strong></div>`).join(""):'<p class="empty">Your bag is empty.</p>';
+}
+
+function toggleCart(open){
+$("drawer").classList.toggle("open",open);
+$("backdrop").classList.toggle("open",open);
+$("drawer").setAttribute("aria-hidden",String(!open));
+if(open)$("close-cart").focus();
+else $("open-cart").focus();
+}
+
+$("products").addEventListener("click",e=>{
+const b=e.target.closest("[data-add]");
+if(!b)return;
+const p=products.find(x=>x.id===b.dataset.add);
+const size=$("size-"+p.id).value;
+const item=cart.find(x=>x.id===p.id&&x.size===size);
+if(item)item.qty++;
+else cart.push({...p,size,qty:1});
+renderCart();$("status").textContent="";toggleCart(true);
+});
+
+$("filters").addEventListener("click",e=>{
+const b=e.target.closest("[data-filter]");
+if(!b)return;
+document.querySelectorAll("#filters .filter").forEach(x=>x.classList.toggle("active",x===b));
+renderProducts(b.dataset.filter);
+});
+
+$("cart-items").addEventListener("click",e=>{
+const b=e.target.closest("[data-remove]");
+if(!b)return;
+const i=Number(b.dataset.remove);
+cart[i].qty--;
+if(cart[i].qty===0)cart.splice(i,1);
+renderCart();$("status").textContent="";
+});
+
+$("open-cart").onclick=()=>toggleCart(true);
+$("close-cart").onclick=()=>toggleCart(false);
+$("backdrop").onclick=()=>toggleCart(false);
+document.addEventListener("keydown",e=>{
+if(e.key==="Escape"&&$("drawer").classList.contains("open"))toggleCart(false);
+});
+
+$("checkout").onclick=()=>{
+if(!cart.length){$("status").textContent="Add an item to your bag first.";return;}
+if(cart.length!==1||cart[0].qty!==1){$("status").textContent="Multi-item checkout is not configured yet.";return;}
+const item=cart[0],link=item.links[item.size];
+if(typeof link!=="string"||!/^https:\/\/(buy\.stripe\.com|checkout\.stripe\.com)\//.test(link)){
+$("status").textContent="Secure checkout is not connected yet.";
+return;
+}
+window.location.assign(link);
+};
+
+// RANDOM FIT COLLECTION — DEMONSTRATION LISTINGS
+const randomFits=[
+{name:"Williamsburg Street Fit",category:"Complete Outfit",price:125,size:"M / 32",condition:"Good",area:"Williamsburg",seller:"Demo Seller 01",description:"Sample full outfit: jacket, jeans and tee.",image:""},
+{name:"Vintage Varsity Jacket",category:"Individual Piece",price:65,size:"Large",condition:"Vintage / Worn",area:"Williamsburg",seller:"Demo Seller 02",description:"Sample vintage-inspired varsity jacket.",image:""},
+{name:"Brooklyn Denim Fit",category:"Complete Outfit",price:95,size:"Medium",condition:"Like New",area:"Bushwick",seller:"Demo Seller 03",description:"Sample denim jacket and matching jeans.",image:""}
+];
+
+function renderRandomFits(category="All"){
+const container=$("random-listings");
+container.replaceChildren();
+randomFits.filter(f=>category==="All"||f.category===category).forEach(fit=>{
+const card=document.createElement("article");
+card.className="fit-card";
+const photo=document.createElement("div");
+photo.className="fit-photo";
+if(fit.image){
+const img=document.createElement("img");
+img.src=fit.image;
+img.alt=fit.name;
+photo.appendChild(img);
+}else photo.textContent="SELLER PHOTO COMING SOON";
+const tag=document.createElement("span");
+tag.className="fit-tag";
+tag.textContent=fit.category;
+photo.appendChild(tag);
+const info=document.createElement("div");
+info.className="fit-info";
+const title=document.createElement("h3");
+title.textContent=fit.name;
+const price=document.createElement("div");
+price.className="fit-price";
+price.textContent=money(fit.price);
+const meta=document.createElement("p");
+meta.className="fit-meta";
+meta.textContent=`${fit.area} · Size: ${fit.size} · ${fit.condition}`;
+const description=document.createElement("p");
+description.textContent=fit.description;
+const seller=document.createElement("div");
+seller.className="fit-seller";
+seller.textContent="Seller: "+fit.seller;
+const button=document.createElement("button");
+button.className="button secondary";
+button.type="button";
+button.textContent="INQUIRE ABOUT FIT";
+button.addEventListener("click",()=>{
+alert("Seller inquiries are not connected yet. This is a demonstration listing.");
+});
+info.append(title,price,meta,description,seller,button);
+card.append(photo,info);
+container.appendChild(card);
+});
+}
+
+$("random-filters").addEventListener("click",e=>{
+const b=e.target.closest("[data-fit-filter]");
+if(!b)return;
+document.querySelectorAll("#random-filters .filter").forEach(x=>x.classList.toggle("active",x===b));
+renderRandomFits(b.dataset.fitFilter);
+});
+
+let previewUrl=null;
+$("fit-image").addEventListener("change",()=>{
+$("fit-preview").replaceChildren();
+if(previewUrl){URL.revokeObjectURL(previewUrl);previewUrl=null;}
+const file=$("fit-image").files[0];
+if(!file)return;
+if(!file.type.startsWith("image/")||file.size>5*1024*1024){
+alert("Choose an image under 5 MB.");
+$("fit-image").value="";
+return;
+}
+previewUrl=URL.createObjectURL(file);
+const img=document.createElement("img");
+img.src=previewUrl;
+img.alt="Your fit photo preview";
+$("fit-preview").appendChild(img);
+});
+
+$("random-seller-form").addEventListener("submit",e=>{
+e.preventDefault();
+if(!e.currentTarget.reportValidity())return;
+const file=$("fit-image").files[0];
+if(!file||!previewUrl){alert("Please upload a valid photo.");return;}
+const newFit={
+name:$("fit-name").value.trim(),
+category:$("fit-category").value,
+price:Number($("fit-price").value),
+size:$("fit-size").value.trim(),
+condition:$("fit-condition").value,
+area:$("fit-area").value.trim(),
+seller:$("seller-name").value.trim(),
+description:$("fit-description").value.trim(),
+image:""
+};
+const reader=new FileReader();
+reader.onload=()=>{
+newFit.image=reader.result;
+randomFits.unshift(newFit);
+renderRandomFits();
+document.querySelectorAll("#random-filters .filter").forEach(b=>b.classList.toggle("active",b.dataset.fitFilter==="All"));
+$("fit-form-status").textContent="Preview created. This listing is visible only in your current browser session and has NOT been submitted.";
+$("random-listings").scrollIntoView({behavior:"smooth"});
+};
+reader.readAsDataURL(file);
+});
+
+$("year").textContent=new Date().getFullYear();
+renderProducts();
+renderCart();
+renderRandomFits();
 </script>
-</body></html>
+</body>
+</html>
